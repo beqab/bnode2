@@ -1,1 +1,1 @@
-# bnode2
+# amazonika
