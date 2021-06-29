@@ -210,11 +210,25 @@ body {
 
 #section2 .owl-nav .owl-prev,
 #section2 .owl-nav .owl-next {
-  font-size: 30px;
+  font-size: 36px;
   color: #fff; }
 
-#section2 .owl-nav .owl-prev {
-  margin-right: 10px; }
+#section2 .owl-nav button {
+  margin: 15px; }
+
+#section3 .owl-nav .owl-prev,
+#section3 .owl-nav .owl-next {
+  font-size: 36px;
+  color: #fff; }
+
+#section3 .owl-nav button {
+  margin-right: 15px; }
+
+#section3 .owl-carousel.oblll2.owl-theme.owl-loaded.owl-drag {
+  height: calc(100% - 274px); }
+
+#section3 .owl-stage-outer {
+  height: calc(100%); }
 
 button:active,
 button:focus {

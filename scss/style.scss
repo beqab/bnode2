@@ -247,11 +247,30 @@ body {
 #section2 {
   .owl-nav .owl-prev,
   .owl-nav .owl-next {
-    font-size: 30px;
+    font-size: 36px;
     color: #fff;
   }
-  .owl-nav .owl-prev {
-    margin-right: 10px;
+  .owl-nav button {
+    margin: 15px;
+  }
+}
+
+#section3 {
+  .owl-nav .owl-prev,
+  .owl-nav .owl-next {
+    font-size: 36px;
+    color: #fff;
+  }
+  .owl-nav button {
+    margin-right: 15px;
+  }
+
+  .owl-carousel.oblll2.owl-theme.owl-loaded.owl-drag {
+    height: calc(100% - 274px);
+  }
+
+  .owl-stage-outer {
+    height: calc(100%);
   }
 }
 
