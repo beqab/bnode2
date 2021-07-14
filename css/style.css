@@ -225,7 +225,8 @@ body {
   margin-right: 15px; }
 
 #section3 .owl-carousel.oblll2.owl-theme.owl-loaded.owl-drag {
-  height: calc(100% - 274px); }
+  height: calc(100% - 274px);
+  min-height: 450px; }
 
 #section3 .owl-stage-outer {
   height: calc(100%); }
