@@ -236,11 +236,12 @@ button:focus {
   outline: none;
   border: none; }
 
-#section3 .oblll2 .owl-item {
-  margin: 0 3vw;
+#section3 .oblll3 {
   color: #fff;
   text-align: left; }
-  #section3 .oblll2 .owl-item .img {
+  #section3 .oblll3 .owl-nav {
+    text-align: center; }
+  #section3 .oblll3 .img {
     height: 30vw;
     width: 100%;
     border: 2px solid #fff;
@@ -251,16 +252,29 @@ button:focus {
     padding: 20px;
     align-items: center;
     justify-content: center;
-    text-align: center; }
-    #section3 .oblll2 .owl-item .img img {
-      max-width: 80%; }
-  #section3 .oblll2 .owl-item p {
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    #section3 .oblll3 .img img {
+      max-height: 100%;
+      height: auto;
+      width: auto !important; }
+  #section3 .oblll3 p {
     font-size: 15px;
-    margin-top: 11px; }
-  #section3 .oblll2 .owl-item h4 {
+    margin-top: 11px;
+    max-width: 80%;
+    margin: auto; }
+  #section3 .oblll3 h4 {
     font-size: 23px;
     color: #fff;
-    margin-top: 20px; }
+    margin-top: 20px;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px; }
 
 #section3 .sectionCOntainer {
   height: 100%; }
@@ -299,3 +313,152 @@ h3 {
     #section3 .oblll2 .owl-item .img img {
       width: auto;
       max-height: 80%; } }
+
+.burgerMenuIcon {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  z-index: 235; }
+
+@media only screen and (max-width: 769px) {
+  .sideBar #menu {
+    margin-top: 70px; }
+  .sideBar {
+    transition: 0.3s;
+    width: 0px;
+    overflow: hidden;
+    position: fixed;
+    padding: 0 0px; }
+    .sideBar.open {
+      width: 88px; }
+    .sideBar a {
+      font-size: 13px;
+      text-align: left; }
+  .sideBar .socials {
+    margin-top: 20px;
+    margin-left: 15px;
+    align-items: flex-start; }
+  #menu li a,
+  #menu li.active a {
+    padding: 1px 7px; }
+  #section0 .intro h2 {
+    top: 15vh;
+    left: calc(50vw);
+    font-size: calc(20px + 2vw) !important;
+    transform: translateX(-40%) !important; }
+  #section0 {
+    margin-left: 0;
+    transition: 0.3s; }
+  #section3 .oblll2 .owl-item h4 {
+    font-size: 15px;
+    margin-top: 7px;
+    text-align: center; }
+  #section3 .oblll2 .owl-item p {
+    font-size: 11px;
+    text-align: justify; }
+  #section3 .oblll2 .owl-item .img {
+    min-height: 132px;
+    min-width: 162px;
+    padding: 5px; }
+  h3 {
+    color: #fff;
+    text-align: left;
+    padding-bottom: 4vh;
+    font-size: calc(10px + 3vw);
+    color: #18192d;
+    -webkit-text-stroke: 2px white;
+    width: calc(90vw - 31px);
+    margin: auto; }
+  #section3 .owl-stage-outer {
+    height: calc(80%); }
+  #section3 .owl-carousel.oblll2.owl-theme.owl-loaded.owl-drag {
+    height: calc(100% - 274px); }
+  #section3 .sectionCOntainer {
+    height: 90vh;
+    padding-top: 5vh; }
+  #section3 .sectionCOntainer h3 {
+    text-align: center; }
+  #Layer_1 {
+    display: none !important; }
+  .oblll3 .img {
+    width: 100px;
+    margin: auto;
+    border: 1px solid #fff;
+    padding: 10px; }
+  .oblll3 h4 {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px; }
+  .oblll3 p {
+    color: #fff;
+    font-size: 12px !important;
+    max-width: 360px;
+    margin: auto;
+    text-align: justify;
+    margin-top: 15px; }
+  .mobileLogo {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 20; }
+    .mobileLogo img {
+      width: 64px; }
+    .mobileLogo h1 {
+      font-size: 20px;
+      display: inline-block;
+      height: 20px; }
+  .sectionCOntainer.aboutMobile {
+    margin-left: 0px;
+    transition: 0.3s; }
+  .sectionCOntainer {
+    margin-left: 0;
+    transition: 0.3s; }
+  .openMenu #section0 {
+    margin-left: 84px; }
+  .openMenu .sectionCOntainer {
+    margin-left: 84; }
+  .openMenu .sectionCOntainer.aboutMobile {
+    margin-left: 84px; }
+  #section3 .oblll2 .owl-item {
+    max-width: 80vw !important; }
+    #section3 .oblll2 .owl-item .img {
+      height: 10vw; }
+  .rotateDegEffect {
+    left: 31vw;
+    top: 46vh; }
+  #slide3 .sectionCOntainer {
+    height: 80vh; }
+  #slide3 h3 {
+    text-align: center;
+    width: 100%; }
+  .owl-carousel11 .owl-nav {
+    display: none; }
+  .serviceMobile .item > div {
+    border: 1px solid #fff;
+    max-width: 80vw;
+    margin: auto;
+    border-color: #5e239d; }
+    .serviceMobile .item > div > h4 {
+      border-bottom: 1px solid #fff;
+      padding: 10px 0;
+      border-color: #5e239d; }
+    .serviceMobile .item > div p {
+      color: #fff;
+      font-size: 12px;
+      padding: 20px 10px; }
+  .serviceMobile h4 {
+    color: #fff !important; }
+  .aboutMobile {
+    color: #fff;
+    font-size: 15px !important; }
+    .aboutMobile > div {
+      max-width: calc(100% - 50px);
+      margin: auto;
+      background: #5e239d;
+      border: 1px solid #fff; }
+      .aboutMobile > div > div {
+        border-bottom: 2px solid #fff;
+        padding: 5px; }
+    .aboutMobile p {
+      font-size: 11px !important;
+      text-align: justify; } }
