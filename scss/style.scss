@@ -366,7 +366,7 @@ h3 {
     }
   }
   .sectionCOntainer svg {
-    width: calc(70vw - 181px);
+    width: calc(51px);
   }
 }
 
@@ -481,6 +481,7 @@ h3 {
     // height: 50%;
     h3 {
       text-align: center;
+      margin-top: 7vw;
     }
   }
   #section3 .oblll2 .owl-item {
@@ -559,7 +560,8 @@ h3 {
 
   #slide3 {
     .sectionCOntainer {
-      height: 80vh;
+      // height: 80vh;
+      // padding-top: 11vw;
     }
     h3 {
       text-align: center;
